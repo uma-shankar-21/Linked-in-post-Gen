@@ -1,13 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[13]:
-
-
 import json
 import pandas as pd
 class Fewshots:
-    def __init__(self, file_path=r"C:\Users\Dell\OneDrive\Desktop\US\LinkedinPost Generator\data\preprocess_post.json"):
+    def __init__(self, file_path="preprocess_post.json"):
         self.df=None
         self.unique_tags=None
         self.load_post(file_path)
@@ -38,10 +32,3 @@ if __name__=="__main__":
     fs=Fewshots()
     posts=fs.get_filtered_posts("Short","English","Job Search")
     print(posts)
-
-
-# In[ ]:
-
-
-
-
