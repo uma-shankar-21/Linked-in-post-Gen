@@ -7,3 +7,8 @@ Title: LinkedIn Post Generator(This is helpful for LinkedIn Influencers)
 
 Process: we will go to any LinkedIn post an extracts key topics out of it and build an UI such that they can select topic, length, English and click on generate that generates post.
 Link : https://linked-in-post-gen.streamlit.app/
+
+Sample UI :
+![image](https://github.com/user-attachments/assets/56cc9750-e228-42fa-a493-1e1c858a7144)
+Sample Output Generation:
+![image](https://github.com/user-attachments/assets/c0014d30-c3c1-48e8-976b-7fc76d3acb6b)
