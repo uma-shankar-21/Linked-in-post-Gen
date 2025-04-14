@@ -1,6 +1,6 @@
 import streamlit as st
-from Few_shot import Fewshots
-from post_generator import generate_post
+#from Few_shot import Fewshots
+#from post_generator import generate_post
 length_options=["Short","Meduim","Large"]
 Language_options=["English","Hindi","Hinglish"]
 def main():
@@ -54,7 +54,7 @@ if __name__=="__main__":
     posts=fs.get_filtered_posts("Short","English","Job Search")
     print(posts)
 ############################################################# POST GENERATOR #######################################################
-from llm_helper import llm
+#from llm_helper import llm
 #from Few_shot import Fewshots
 
 few_shot = Fewshots()
