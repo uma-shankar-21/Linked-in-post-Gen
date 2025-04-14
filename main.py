@@ -106,12 +106,12 @@ def get_prompt(length, language, tag):
 if __name__ == "__main__":
     print(generate_post("Medium", "English", "Mental Health"))
 ##########################################   LLM HELPER            ############################################################
-import os
-from dotenv import load_dotenv
+#import os
+#from dotenv import load_dotenv
 from langchain_groq import ChatGroq
-
-load_dotenv()
-llm=ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"),model="llama-3.2-90b-vision-preview")
+GROQ_API_KEY="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"
+#load_dotenv()
+llm=ChatGroq(groq_api_key=GROQ_API_KEY,model="llama-3.2-90b-vision-preview")
 
 if __name__=="__main__":
     response=llm.invoke("What is difference between GenAI and LLM")
